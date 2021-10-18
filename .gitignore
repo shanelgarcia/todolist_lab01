@@ -1,0 +1,12 @@
+# VS codes
+.vscode
+
+# node_modules
+node_modules
+
+# parcel files
+dist
+.parcel-cache
+
+# macOS
+.DS_Store

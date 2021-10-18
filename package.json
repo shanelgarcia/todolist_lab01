@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/shanelgarcia/todolist_lab01/issues"
   },
-  "homepage": "https://github.com/shanelgarcia/todolist_lab01#readme"
+  "homepage": "https://github.com/shanelgarcia/todolist_lab01#readme",
+  "devDependencies": {
+    "http-server": "^13.0.2",
+    "parcel": "^2.0.0",
+    "sass": "^1.43.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
 }
