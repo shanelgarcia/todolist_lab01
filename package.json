@@ -1,0 +1,24 @@
+{
+  "name": "todolistapp",
+  "version": "1.0.0",
+  "description": "Simple Vanilla JS App",
+  "default": "src/index.html",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanelgarcia/todolist_lab01.git"
+  },
+  "keywords": [
+    "to",
+    "do",
+    "list"
+  ],
+  "author": "Shanel Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanelgarcia/todolist_lab01/issues"
+  },
+  "homepage": "https://github.com/shanelgarcia/todolist_lab01#readme"
+}
