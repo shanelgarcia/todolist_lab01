@@ -1,0 +1,52 @@
+[
+    {
+        "id": "qwe0912rty",
+        "category": "friends",
+        "title": "Hang out with my best friend",
+        "isComplete": true,
+        "startDate": "Thursday - September 09, 2021",
+        "startTime": "1:00pm",
+        "endDate": "Thursday - September 09, 2021",
+        "endTime": "11:00pm"
+    },
+    {
+        "id": "asd3287fgh",
+        "category": "work",
+        "title": "Wendy's Shift",
+        "isComplete": true,
+        "startDate": "Saturday - September 11, 2021",
+        "startTime": "3:00pm",
+        "endDate": "Thursday - September 11, 2021",
+        "endTime": "11:00pm"
+    },
+    {
+        "id": "zxc4576vbn",
+        "category": "school",
+        "title": "DMIT2008 Lab 01",
+        "isComplete": true,
+        "startDate": "Monday - October 04, 2021",
+        "startTime": "8:00am",
+        "endDate": "Thursday - October 21, 2021",
+        "endTime": "10:00am"
+    },
+    {
+        "id": "dsa764lkj",
+        "category": "home",
+        "title": "Clean washroom",
+        "isComplete": true,
+        "startDate": "Tuesday - October 05, 2021",
+        "startTime": "1:00pm",
+        "endDate": "Tuesday - October 05, 2021",
+        "endTime": "3:00pm"
+    },
+    {
+        "id": "cxz9032iop",
+        "category": "health",
+        "title": "Doctor's Appointment",
+        "isComplete": true,
+        "startDate": "Tuesday - October 12, 2021",
+        "startTime": "8:00am",
+        "endDate": "Tuesday - October 12, 2021",
+        "endTime": "11:00am"
+    }
+]
