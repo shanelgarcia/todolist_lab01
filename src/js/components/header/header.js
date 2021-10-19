@@ -1,4 +1,4 @@
-const header = function(title="uiHeader",className="ui-header"){
+const header = function(title="Takeout Box",className="main-header"){
 
     const element = `<h1 class="${className}">${title}</h1>`
 
