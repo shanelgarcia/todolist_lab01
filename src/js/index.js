@@ -1,6 +1,6 @@
 //imports
 import header from "./components/header/header.js";
-import tagline from "./components/tagline/tagline.js";
+import tagline from "./components/header/tagline.js";
 
 //app components
 const titleClass = "brand-title";
