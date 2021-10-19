@@ -1,6 +1,6 @@
 const tagline = function(tagline, className){
 
-    const element = `<p>${tagline}</p>`
+    const element = `<p class="${className}">${tagline}</p>`
     return element
 }
 

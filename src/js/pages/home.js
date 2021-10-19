@@ -1,19 +1,20 @@
 //imports
+import header from "../components/header/header.js";
+import tagline from "../components/header/tagline.js";
 import {title,titleClass,tag,tagClass} from "../components/header/brand.js"
-import {logo} from "../icons/logo.js"
-import header from "./components/header/header.js";
-import tagline from "./components/header/tagline.js";
+import {logo} from '../icons/logo.js'
+
 import makeElement from "../utils/makeElement.js";
 
-// app
-const home = function(params){
-    const header = document.createElement('header')
-    header.classList.add('page-header')
-    header.appendChild(makeElement(logo()))
-    header.appendChild(makeElement(header(title,titleClass)))
-    header.appendChild(makeElement(tagline(tag,tagClass)))
+//js code
+const home = () => 
+{
+    const pageHeader = document.createElement('header')
+    pageHeader.appendChild(makeElement(logo))
+    pageHeader.appendChild(makeElement(header(title,titleClass)))
+    pageHeader.appendChild(makeElement(tagline(tag,tagClass)))
 
-    return header
+    return pageHeader
 }
 
 export default home

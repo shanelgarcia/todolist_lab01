@@ -1,9 +1,9 @@
-import Router from './router/router.js'
-import home from './pages/home.js';
+import home from './pages/home.js'
 
 const app = document.querySelector('#app');
+app.insertAdjacentElement("afterend", home())
 
-Router('/')
-
-
-
+/*
+app.insertAdjacentHTML("beforeend", header(title,titleClass))
+app.insertAdjacentHTML("afterend", tagline(tag,tagClass))
+*/
