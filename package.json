@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/shanelgarcia/todolist_lab01#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
     "http-server": "^13.0.2",
     "parcel": "^2.0.0",
     "sass": "^1.43.2"
