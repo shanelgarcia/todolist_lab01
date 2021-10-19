@@ -20,9 +20,12 @@
 ### Preparation
 1. assets/svg/logo.svg - store logo I illustrated for reference
 2. icons/logo - add svg code to be imported
-3. router/router.js - routing different pages for index.js
+3. pages/
+  - home.js - imports and functions to render home.js
+  - toDoPage.js - imports and functions to render toDoPage.js
+  - pageNotFound.js - imports and functions to render pageNotFound.js
+4. router/router.js - loads different pages for index.js
   - default: home.js
-4. pages/home.js - imports and functions to render home.js
 
 ### home.js
 1. components/header/header.js - h1 title
