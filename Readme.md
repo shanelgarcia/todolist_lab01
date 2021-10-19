@@ -3,6 +3,11 @@
 ## Branding
 - AppName: Takeout Box
 - Tagline: Checking out your task made easy
+- Font Style: Roboto
+``` css
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+```
 
 ## Layout Plan
 
@@ -16,20 +21,20 @@
   - type: svg (generated from my png)
 - Title:
   - text: AppName
-  - font:
+  - font: Regular
   - size:
   - color:
   - alignment: centered, 10px below the logo
 - Tagline:
   - text: Tagline
-  - font: 
+  - font: Condensed
   - size:
   - color: 
   - alignment: centered, 5px below the title
 - Link:
   - text: "Start Checking Out"
   - type: button
-  - font: 
+  - font: Condensed
   - size:
   - color: 
   - alignment: centered, 10px below the tagline
