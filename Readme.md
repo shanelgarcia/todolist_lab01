@@ -18,30 +18,30 @@
 
 ## Steps
 ### Preparation
-- assets/svg/logo.svg - store logo I illustrated for reference
-- icons/logo - add svg code to be imported
-- router/router.js - routing different pages for index.js
+1. assets/svg/logo.svg - store logo I illustrated for reference
+2. icons/logo - add svg code to be imported
+3. router/router.js - routing different pages for index.js
   - default: home.js
-- pages/home.js - imports and functions to render home.js
+4. pages/home.js - imports and functions to render home.js
 
 ### home.js
-- components/header/header.js - h1 title
-- components/header/tagline.js - p tagline
-- components/buttons/link - button navigational purposes
-- utils/makeElement - combine all elements
-- pages/home.js - function to make the elements and inject it to the browser
+1. components/header/header.js - h1 title
+2. components/header/tagline.js - p tagline
+3. components/buttons/link - button navigational purposes
+4. utils/makeElement - combine all elements
+5. pages/home.js - function to make the elements and inject it to the browser
   - icons/logo
   - component/header/header
   - component/header/tagline
   - component/button/link
-- index.js - import pages and router
-- scss/_home.scss - style home.js (see Layout Plan for details)
+6. index.js - import pages and router
+7. scss/_home.scss - style home.js (see Layout Plan for details)
 
 ### toDoPage.js
-- pages/toDoPage.js - imports and functions to render toDoPage.js
-- data/todo.json - acting database for app
-- utils/dataFetcher.js - fetch data from data/todo.json
-- scss/_toDoPage.scss - style toDoPage.js
+1. pages/toDoPage.js - imports and functions to render toDoPage.js
+2. data/todo.json - acting database for app
+3. utils/dataFetcher.js - fetch data from data/todo.json
+4. scss/_toDoPage.scss - style toDoPage.js
 
 ## Layout Plan
 
