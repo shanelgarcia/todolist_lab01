@@ -26,12 +26,13 @@
   - pageNotFound.js - imports and functions to render pageNotFound.js
 4. router/router.js - loads different pages for index.js
   - default: home.js
+5. utils/makeElement - combine all elements
 
 ### home.js
 1. components/header/header.js - h1 title
 2. components/header/tagline.js - p tagline
 3. components/buttons/link - button navigational purposes
-4. utils/makeElement - combine all elements
+4. utils/makeElement - append child with all home.js components
 5. pages/home.js - function to make the elements and inject it to the browser
   - icons/logo
   - component/header/header
