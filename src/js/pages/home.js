@@ -10,6 +10,7 @@ import makeElement from "../utils/makeElement.js";
 const home = () => 
 {
     const pageHeader = document.createElement('header')
+    pageHeader.classList.add('page-header')
     pageHeader.appendChild(makeElement(logo))
     pageHeader.appendChild(makeElement(header(title,titleClass)))
     pageHeader.appendChild(makeElement(tagline(tag,tagClass)))
