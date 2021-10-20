@@ -13,6 +13,11 @@
     font-size: 30px;
 }
 
+.link-button:hover,.link-button:active
+{
+    background-color: #4F9274;
+}
+
 // mobile screen
 @media only screen and (max-width: 1024px) {
     .link-button 
