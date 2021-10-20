@@ -10,7 +10,7 @@ import makeElement from "../utils/makeElement.js";
 // button var
 const btnLabel = "Checkout Tasks"
 const btnClass = "link-button"
-const btnPath = "/todopage"
+const btnPath = "/todo"
 
 //js code
 const home = () => 
