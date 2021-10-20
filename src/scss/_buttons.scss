@@ -5,7 +5,7 @@
     color: #FFF;
     text-decoration: none;
     display: block;
-    padding: 3vw;
+    padding: 1vw;
     margin: 2rem auto;
 
     // desktop
@@ -22,6 +22,7 @@
 @media only screen and (max-width: 1024px) {
     .link-button 
     {
+        padding: 3vw;
         width:50vw;
         font-size: 4vw;
     }
