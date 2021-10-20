@@ -15,13 +15,15 @@ const btnPath = "/todopage"
 //js code
 const home = () => 
 {
-    console.log("home.js page");
     const pageHeader = document.createElement('header')
     pageHeader.classList.add('page-header')
     pageHeader.appendChild(makeElement(logo))
     pageHeader.appendChild(makeElement(header(title,titleClass)))
     pageHeader.appendChild(makeElement(tagline(tag,tagClass)))
-    pageHeader.appendChild(makeElement(link(btnLabel,btnPath,btnClass)))
+
+    const btnLink = link(btnLabel,btnPath,btnClass)
+    
+    pageHeader.appendChild(btnLink)
 
     return pageHeader
 }
