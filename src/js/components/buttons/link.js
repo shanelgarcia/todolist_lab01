@@ -1,6 +1,6 @@
-const link = function(textValue,className,path){
+const link = function(label,path,className){
 
-    const element = `<a class="${className}" href="${path}">${textValue}</a>`
+    const element = `<a class="${className}" href="${path}" data-path="${path}">${label}</a>`
     
     return element
 }

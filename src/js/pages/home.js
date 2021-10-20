@@ -7,15 +7,21 @@ import {logo} from '../icons/logo.js'
 
 import makeElement from "../utils/makeElement.js";
 
+// button var
+const btnLabel = "Checkout Tasks"
+const btnClass = "link-button"
+const btnPath = "/todopage"
+
 //js code
 const home = () => 
 {
+    console.log("home.js page");
     const pageHeader = document.createElement('header')
     pageHeader.classList.add('page-header')
     pageHeader.appendChild(makeElement(logo))
     pageHeader.appendChild(makeElement(header(title,titleClass)))
     pageHeader.appendChild(makeElement(tagline(tag,tagClass)))
-    pageHeader.appendChild(makeElement(link("Checkout Tasks","link-button","../pages/toDoPage.js")))
+    pageHeader.appendChild(makeElement(link(btnLabel,btnPath,btnClass)))
 
     return pageHeader
 }
