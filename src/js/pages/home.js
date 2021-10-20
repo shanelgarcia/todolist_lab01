@@ -15,7 +15,7 @@ const home = () =>
     pageHeader.appendChild(makeElement(logo))
     pageHeader.appendChild(makeElement(header(title,titleClass)))
     pageHeader.appendChild(makeElement(tagline(tag,tagClass)))
-    pageHeader.appendChild(makeElement(link("Checkout Some Tasks","link-button","../pages/toDoPage.js")))
+    pageHeader.appendChild(makeElement(link("Checkout Tasks","link-button","../pages/toDoPage.js")))
 
     return pageHeader
 }

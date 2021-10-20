@@ -1,8 +1,23 @@
 .link-button
 {
-    color: #000;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3E0C00;
+    color: #FFF;
     text-decoration: none;
-    font-size: 2rem;
-    padding: 1rem;
-    margin: 2rem;
+    display: block;
+    padding: 3vw;
+    margin: 2rem auto;
+
+    // desktop
+    width: 20%;
+    font-size: 30px;
+}
+
+// mobile screen
+@media only screen and (max-width: 1024px) {
+    .link-button 
+    {
+        width:50vw;
+        font-size: 4vw;
+    }
 }
