@@ -9,7 +9,8 @@ const routes =
             "/404":pageNotFound()
         }
 const Router = (pathname) =>
-{        
+{
+    const isValidRoute = Object.keys(routes).find(key => key===pathname)        
     const app = document.querySelector('#app');
     app.innerHTML = '';
     
@@ -20,8 +21,15 @@ const Router = (pathname) =>
         pathname,
         window.location.origin + pathname
     )
-    app.appendChild(routes[window.location.pathname])
-    
+    //app.appendChild(routes[window.location.pathname])
+    if(isValidRoute === undefined)
+    {
+        app.appendChild(pageNotFound())
+    }
+    else
+    {
+        app.appendChild(routes[isValidRoute]())
+    }
 
 
 }
