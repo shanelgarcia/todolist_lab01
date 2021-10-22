@@ -6,7 +6,7 @@
 
 ## Branding
 - AppName: Takeout Box
-- Tagline: Checking out your task made easy
+- Tagline: Checking out your tasks made easy
 - Logo: 
   - Idea #1: Take out moped, similar to what Chinese restaurants use, with checked checkbox on top of the seat
   - Idea #2: Food truck with the back of the truck looking like a checkbox
@@ -50,8 +50,34 @@
 ## Layout Plan
 
 ### Color Scheme
-- Body BGcolor: #D5EF9F
-- Banner BGcolor: #4F9274
+I'm not really going to use all of these. They're just here for reference.
+(from darkest to lightest):
+- Red (R)
+ 1. #4A0016
+ 2. #700E2F
+ 3. #953050
+ 4. #BB5D7B
+ 5. #E197AE
+- Blue (B)
+ 1. #073A23
+ 2. #19573A
+ 3. #2F7555
+ 4. #4F9274
+ 5. #79AF97
+- Green (G)
+ 1. #45520D
+ 2. #6C7A22
+ 3. #93A341
+ 4. #BECC6F
+ 5. #EAF5A9
+- Neutral Colors (NC)
+  1. Brown: #3E0C00
+
+### Logo Potential Color Combination
+- Lineart: NC1 3E0C00
+- Combination: 
+
+### Element Colors
 - Main Text Color: #3E0C00
 
 ### home.js

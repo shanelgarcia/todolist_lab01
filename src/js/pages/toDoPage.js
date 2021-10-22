@@ -7,6 +7,7 @@ import makeElement from "../utils/makeElement.js";
 
 const toDoPage = () =>
 {
+    console.log(window.location.origin);  
     const pageHeader = document.createElement('header')
     pageHeader.classList.add('page-header')
     pageHeader.appendChild(makeElement(header(title,titleClass)))

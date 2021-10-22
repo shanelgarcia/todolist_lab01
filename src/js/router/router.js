@@ -20,7 +20,7 @@ const Router = (pathname) =>
 
     // if valid page
     function res()
-    {    
+    {  
         window.history.pushState(
             {},
             pathname,
