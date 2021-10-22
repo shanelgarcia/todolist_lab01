@@ -14,26 +14,19 @@ const Router = (pathname) =>
     app.innerHTML = '';
     
     //app.appendChild(routes[path])
-    fetch(window.location.pathname)
-    .then(res)
-    .catch(err)
+   
 
     // if valid page
-    function res()
-    {  
+
         window.history.pushState(
             {},
             pathname,
             window.location.origin + pathname
         )
         app.appendChild(routes[window.location.pathname])
-    }
+    
 
-    //if invalid page
-    function err()
-    {
-        window.location.replace("/404")
-    }
+
 }
 
 export default Router
