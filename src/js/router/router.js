@@ -14,16 +14,13 @@ const Router = (pathname) =>
     app.innerHTML = '';
     
     //app.appendChild(routes[path])
-   
 
-    // if valid page
-
-        window.history.pushState(
-            {},
-            pathname,
-            window.location.origin + pathname
-        )
-        app.appendChild(routes[window.location.pathname])
+    window.history.pushState(
+        {},
+        pathname,
+        window.location.origin + pathname
+    )
+    app.appendChild(routes[window.location.pathname])
     
 
 
