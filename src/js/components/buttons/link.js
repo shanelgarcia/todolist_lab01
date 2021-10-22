@@ -5,8 +5,7 @@ import makeElement from "../../utils/makeElement"
 const onRequestPage = function(e){
     e.preventDefault();
     Router(e.currentTarget.dataset.path)
-    //console.log(e.currentTarget.dataset.path);
-
+    
     return false;
 }
 
