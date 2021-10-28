@@ -27,15 +27,14 @@
     "url": "https://github.com/shanelgarcia/todolist_lab01/issues"
   },
   "homepage": "https://github.com/shanelgarcia/todolist_lab01#readme",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0",
-    "gulp": "^4.0.2",
-    "http-server": "^13.0.2",
-    "parcel": "^2.0.0",
-    "sass": "^1.43.2"
-  },
   "dependencies": {
     "lodash": "^4.17.21",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "http-server": "^14.0.0",
+    "parcel": "^2.0.0",
+    "sass": "^1.43.4"
   }
 }
