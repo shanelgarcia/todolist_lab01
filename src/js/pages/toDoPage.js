@@ -12,10 +12,7 @@ const toDoPage = () =>
     pageHeader.appendChild(makeElement(header(title,titleClass)))
     pageHeader.appendChild(makeElement(tagline(tag,tagClass)))
 
-    const pageBody = document.createElement('div')
-
-    const markup = pageHeader
-    return markup;
+    return pageHeader;
 }
 
 export default toDoPage
