@@ -8,7 +8,7 @@
     "start": "npm run static && npm run dev",
     "static": "npx gulp",
     "dev": "npx parcel src/index.html",
-    "build": "npx parcel build src/index.html",
+    "build": "npm run static && npx parcel build src/index.html",
     "clean:dev": "del -f .parcel-cache,dist",
     "clean:git": "del -f .parcel-cache dist node_modules"
   },

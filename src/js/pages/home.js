@@ -13,8 +13,7 @@ const btnClass = "link-button"
 const btnPath = "/todo"
 
 //js code
-const home = () => 
-{
+const home = function(){
     const pageHeader = document.createElement('header')
     pageHeader.classList.add('page-header')
     pageHeader.appendChild(makeElement(logo))

@@ -5,8 +5,7 @@ import tagline from "../components/header/tagline.js";
 
 import makeElement from "../utils/makeElement.js";
 
-const toDoPage = () =>
-{
+const toDoPage = function(){
     const pageHeader = document.createElement('header')
     pageHeader.classList.add('page-header')
     pageHeader.appendChild(makeElement(header(title,titleClass)))
