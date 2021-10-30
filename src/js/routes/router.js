@@ -15,6 +15,11 @@ const Router = (pathname) =>
     
     //app.appendChild(routes[path])
 
+    window.history.pushState(
+        {},
+        pathname,
+        window.location.origin + pathname
+    )
     //app.appendChild(routes[window.location.pathname])
     if(isValidRoute === undefined)
     {
@@ -22,11 +27,6 @@ const Router = (pathname) =>
     }
     else
     {
-        window.history.pushState(
-            {},
-            pathname,
-            window.location.origin + pathname
-        )
         app.appendChild(routes[isValidRoute]())
     }
 
