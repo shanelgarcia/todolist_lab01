@@ -1,4 +1,4 @@
-import Router from "../../router/router";
+import Router from "../../routes/router";
 import makeElement from "../../utils/makeElement"
 
 //function
