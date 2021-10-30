@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "/todo"
-  to = "./pages/toDoPages.js"
-  status = 200
-  force = true
-  headers = {X-From = "Netlify"}
