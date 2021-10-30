@@ -5,7 +5,8 @@ import pageNotFound from '../pages/pageNotFound.js';
 const routes =
         {
             "/":home,
-            "/todo":toDoPage
+            "/todo":toDoPage,
+            "/pagenotfound":pageNotFound
         }
 const Router = (pathname) =>
 {
