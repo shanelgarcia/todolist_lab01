@@ -24,11 +24,11 @@ const Router = (pathname) =>
     //app.appendChild(routes[window.location.pathname])
     if(isValidRoute === undefined)
     {
-        app.appendChild(pageNotFound())
+        app.append(pageNotFound())
     }
     else
     {
-        app.appendChild(routes[isValidRoute]())
+        app.append(routes[isValidRoute]())
     }
 
 
